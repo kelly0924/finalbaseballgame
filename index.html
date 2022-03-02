@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>baseBallGame</title>
+</head>
+<body>
+    <header id="header">
+        
+    </header>
+    
+    <div id="ballDiv">
+        <div id="inputNum">
+           
+            <div class="inputNumDiv"> 
+                <div>
+                    <img class="inputNumDivImg" src="img/baseball1.png">
+                </div>
+                <div id="inputNum1" class="inputNumCnt"></div>
+            </div>
+            <div class="inputNumDiv"> 
+                <div><img class="inputNumDivImg" src="img/baseball1.png"></div>
+                <div id="inputNum2" class="inputNumCnt"></div>
+            </div>
+            <div class="inputNumDiv"> 
+                <div>
+                    <img class="inputNumDivImg" src="img/baseball1.png">
+                </div>
+                <div id="inputNum3" class="inputNumCnt"></div>
+            </div>
+        </div>
+    </div>
+    <main id="main">
+
+        <section id="mainScectionOne">
+            <div id="mainScectionOneDiv">
+                <input class="bottonDivInput" id="1" type="button" value="1" onclick="selectNumber(1)">
+                <input class="bottonDivInput" id="2" type="button" value="2" onclick="selectNumber(2)">
+                <input class="bottonDivInput" id="3" type="button" value="3" onclick="selectNumber(3)">
+                <input class="bottonDivInput" id="4" type="button" value="4" onclick="selectNumber(4)">
+                <input class="bottonDivInput" id="5" type="button" value="5" onclick="selectNumber(5)">
+                <input class="bottonDivInput" id="6" type="button" value="6" onclick="selectNumber(6)">
+                <input class="bottonDivInput" id="7" type="button" value="7" onclick="selectNumber(7)">
+                <input class="bottonDivInput" id="8" type="button" value="8" onclick="selectNumber(8)">
+                <input class="bottonDivInput" id="9" type="button" value="9" onclick="selectNumber(9)">
+                <input class="bottonDivInput" id="deletInput" type="button" value="지우기" onclick="deletBotton()">
+                <input class="bottonDivInput" id="start_input" type="button" value="맞추기" onclick="compareNumbers()">
+            </div>
+        </section>
+        
+        <section id="mainSectionTwo">
+            <div id="mainScectionTwoDivTitle" >
+               점수판
+            </div>    
+            <div class="mainSectionTowListDiv"></div>
+            <div class="mainSectionTowListDiv"></div>
+            <div class="mainSectionTowListDiv"></div>
+            <div class="mainSectionTowListDiv"></div>
+            <div class="mainSectionTowListDiv"></div>
+            <div class="mainSectionTowListDiv"></div>
+            <div class="mainSectionTowListDiv"></div>
+        </section>
+
+        <!-- <div id="maincheckWinDiv"> -->
+
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

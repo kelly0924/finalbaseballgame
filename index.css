@@ -1,0 +1,77 @@
+#ballDiv {
+  padding-top: 20px;
+  height: 250px;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+#inputNum {
+  display: flex;
+  justify-content: space-evenly;
+}
+.inputNumDivImg {
+  width: 200px;
+  height: 200px;
+}
+.inputNumDiv {
+  text-align: center;
+}
+.inputNumCnt {
+  width: 70px;
+  height: 80px;
+  display: inline-block;
+  position: relative;
+  bottom: 140px;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 900;
+  z-index: 1;
+}
+#mainScectionOneDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 300px;
+}
+.bottonDivInput {
+  width: 85px;
+  height: 85px;
+  border-radius: 2px;
+}
+
+/* 점수 리스트 추가 되기 */
+#mainScectionTwoDivTitle {
+  width: 250px;
+  height: 50px;
+  position: relative;
+  left: 125px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+#scoreImg {
+  width: 50px;
+  height: 50px;
+}
+.mainSectionTowListDiv {
+  width: 500px;
+  height: 45px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+/* check win */
+/* #maincheckWinDiv {
+  width: 200px;
+  height: 60px;
+  font-size: 60px;
+  font-weight: 900;
+  color: blue;
+} */
